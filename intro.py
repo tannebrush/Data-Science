@@ -54,9 +54,6 @@ while i < 6:
     i +=1
 '''
 
-
-
-
 #Heltal konvertering
 x=42
 y = (x)
@@ -65,6 +62,18 @@ print(type(y))
 
 #Flyttal konvertering
 x=3.60
+y= (x)
+print(y)
+print(type(y))
+
+#Lista konvertering
+x= ["banana", "apple", "grape"]
+y = (x)
+print(y)
+print(type(y))
+
+#Text konvertering
+x="Anna"
 y= (x)
 print(y)
 print(type(y))
