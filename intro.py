@@ -224,7 +224,7 @@ UPPER = fantastico.upper()
 
 print(UPPER)
 '''
-
+'''
 #Fråga användaren om deras namn och ålder.
 #Skriv ut en hälsning som:
 #Hej, [namn]! Du är [ålder] år gammal.
@@ -234,3 +234,27 @@ name= "Bengt"
 age="50"
 
 print(f"Hej {name}, du är {age} år gammal")
+'''
+'''
+#Skapa två booleanvärden x = True och y = False.
+#Kombinera dem med and och or.
+x=True
+y=False
+if x > 0 and y < 15: 
+    print("X är False")
+
+x=True
+y=False
+if x < 25 or y > 30:
+    print("X är True")
+'''
+
+
+
+
+
+
+
+
+
+
