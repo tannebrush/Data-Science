@@ -108,7 +108,5 @@ finally:
     print("Programmet avslutas.")
 '''
 
-try:
-    x =int("hej")
-except:
-    print("Ett fel uppstod")
+
+
