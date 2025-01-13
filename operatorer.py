@@ -1,5 +1,7 @@
-'''
+
 #opeatorer
+
+'''
 x=10
 y=10
 print(x > 5 and y < 10)
@@ -7,9 +9,11 @@ print(x > 5 and y < 10)
 '''
 
 
-'''
+
 #Skapa två booleanvärden x = True och y = False.
 #Kombinera dem med and och or.
+
+'''
 x=True
 y=False
 if x > 0 and y < 15: 

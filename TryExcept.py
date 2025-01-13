@@ -1,6 +1,7 @@
 
-'''
+
 #Felhantering
+'''
 try:
     x= int("hej") 
 except:
@@ -17,8 +18,9 @@ print("Programmet fortsätter här")
 '''
 
 
-'''
+
 #ValueError
+'''
 print("fånga specifika fel")
 
 try:
@@ -26,8 +28,9 @@ try:
 except ValueError:
     print("Ett värdefel uppstod")
 '''
-'''
+
 #Try-Except-Finally (ZeroDivisionError)
+'''
 try:
     x = 10/0
 except ZeroDivisionError:
@@ -37,8 +40,9 @@ finally:
 '''
 
 
-'''
+
 #Felmeddelanden
+'''
 class InvalidEmailError(Exception):
     pass
 
@@ -65,6 +69,8 @@ finally:
 '''
 
 
+
+#Try-Except-Finally
 
 '''
 class InvalidPasswordError(Exception): 

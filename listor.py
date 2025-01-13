@@ -1,6 +1,8 @@
-'''
+
 
 #Tre olika alternativ välj 1 eller alla för att printa ut
+
+'''
 numbers = [1, 2, 3, 4, 5]
 words = ["hej", "världen"]
 mixed = [1, "två", 3.0, True]
@@ -11,8 +13,10 @@ print(mixed)
 '''
 
 
-'''
+
 #Len beräknar ut antalet objekt i listan 
+
+'''
 thislist = ["apple", "banana", "cherry", "kiwi", "pear", 1, 2, 3]
 print(len(thislist))
 
@@ -23,16 +27,20 @@ list1 = ["abc", 34, True, 40, "male"]
 print(list1)
 '''
 
-'''
+
 #Type definierar vilken sort classvilket är list
+
+'''
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
 '''
 
 
 
-'''
+
 #list((abc)) funkar sammma som [abc]
+
+'''
 thislist = list(("apple", "banana", "cherry")) #Dubbel paranteser
 print(thislist)
 '''
@@ -41,8 +49,10 @@ print(thislist)
 
 
 
-'''
+
 #printas enskilt vertikalt
+
+'''
 my_list = ["apple", "banana", "cherry"]
 for fruit in my_list:
 
@@ -52,8 +62,10 @@ for fruit in my_list:
 
 
 
-'''
+
 #for, if, else
+
+'''
 my_list = ["apple", "banana", "cherry"]
 for fruit in my_list:
     if fruit !="cherry": #else satsen kommer in här 
@@ -64,8 +76,10 @@ for fruit in my_list:
 
 
 
-'''
+
 #Lägga till objekt i lista
+
+'''
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 print(thislist)
@@ -76,8 +90,10 @@ thislist.remove("apple")
 print(thislist)
 '''
 
-'''
+
 #Apple start på 0, banana 1 cherry är 2 därför byts den ut till pear
+
+'''
 my_list = ["apple", "banana", "cherry"]
 my_list[2] = "pear"
 print(my_list)
